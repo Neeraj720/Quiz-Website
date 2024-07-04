@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Agdasima' sans-serif;
+    font-weight: 300;
+}
+html{
+    font-size: 99%;
+}
+.main-div{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /* background-color: #ecf0f1; */
+    /* background-color: hsl(205, 53%, 80%); */
+    background: linear-gradient(135deg,#156c77,#08095f);
+}
+.inner-div{
+    width: 50vw;
+    background: #fff;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+.inner-div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1.5rem;
+    color: #156c77;
+
+}
+.inner-div li{
+    /* color: rgb(0, 162, 255); */
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    color: #156c77;
+}
+input{
+    cursor: pointer;
+}
+#submit,
+.btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    outline: none;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    /* background-color: #74b9ff; */
+    background-color: #08095f;
+    margin-top: 3rem;
+
+}
+#submit:hover{
+    background-color: #050536;
+    cursor: pointer;
+}
+#showScore{
+    background-color: white;
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    /* width: 20vw; */
+}
+#showScore h3{
+    text-align: center;
+    font-size: 2rem;
+    /* color: white; */
+}
+#showScore .btn{
+    margin-top: 1rem;
+    background-color: #08095f;
+    color: #fff;
+    /* border-radius: 1rem; */
+}
+#showScore .btn:hover{
+    background-color:#050536;
+    color: #fff;
+    cursor: pointer;
+}
+.scoreArea{
+    display: none;
+}
