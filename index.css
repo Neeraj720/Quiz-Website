@@ -16,9 +16,8 @@ html{
     display: flex;
     justify-content: center;
     align-items:center ;
-    /* background-color: #ecf0f1; */
-    /* background-color: hsl(205, 53%, 80%); */
-    background: linear-gradient(135deg,#156c77,#08095f);
+    background-image: url('images/quiz.jpg');
+    background-size: cover;
 }
 .inner-div{
     width: 50vw;
@@ -28,7 +27,7 @@ html{
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
 }
 .inner-div h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 1.5rem;
     color: #156c77;

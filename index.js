@@ -8,20 +8,20 @@ const quizDB=[
     ans:"ans3"
 },
 {
-    question:" Q2 Which planet is known as the Red Planet?",
-    a:"Mars", 
-    b:"Venus", 
-    c:"Jupiter", 
-    d:"Saturn",
-    ans:"ans1"
+    question:" Q2 What is  full form of css",
+    a: "Hello World",
+    b: "Cascading Style Sheets",
+    c: "Hello India",
+    d: "None of these",
+    ans:"ans2"
 }
 ,
 {
-    question:"Q3 What is the largest organ in the human body?",
-    a:"Liver", 
-    b:"Lungs", 
-    c:"Skin", 
-    d:"Heart",
+    question:"Q3 What is full form of json",
+    a:"Hyper Text Markup Language", 
+    b:"JavaScript Object Notation", 
+    c:"Just Another Virtual Accelerator", 
+    d:"None of these",
     ans:"ans2"
 }
 ,
